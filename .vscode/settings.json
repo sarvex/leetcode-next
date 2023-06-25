@@ -10,7 +10,5 @@
     "titleBar.inactiveForeground": "#15202b99"
   },
   "peacock.color": "#70aaf1",
-  "cSpell.words": [
-    "leetcode"
-  ]
+  "cSpell.words": ["leetcode"]
 }
