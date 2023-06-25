@@ -1,0 +1,16 @@
+{
+  "workbench.colorCustomizations": {
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#9ec6f6",
+    "tab.activeBorder": "#9ec6f6",
+    "titleBar.activeBackground": "#70aaf1",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.border": "#70aaf1",
+    "titleBar.inactiveBackground": "#70aaf199",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#70aaf1",
+  "cSpell.words": [
+    "leetcode"
+  ]
+}
