@@ -15,8 +15,8 @@ dependencies:
     specifier: 13.4.9
     version: 13.4.9(@mdx-js/loader@2.3.0)(@mdx-js/react@2.3.0)
   '@types/node':
-    specifier: 20.3.3
-    version: 20.3.3
+    specifier: 20.4.1
+    version: 20.4.1
   '@types/react':
     specifier: 18.2.14
     version: 18.2.14
@@ -504,8 +504,8 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: false
 
-  /@types/node@20.3.3:
-    resolution: {integrity: sha512-wheIYdr4NYML61AjC8MKj/2jrR/kDQri/CIpVoZwldwhnIrD/j9jIU5bJ8yBKuB2VhpFV7Ab6G2XkBjv9r9Zzw==}
+  /@types/node@20.4.1:
+    resolution: {integrity: sha512-JIzsAvJeA/5iY6Y/OxZbv1lUcc8dNSE77lb2gnBH+/PJ3lFR1Ccvgwl5JWnHAkNHcRsT0TbpVOsiMKZ1F/yyJg==}
     dev: false
 
   /@types/normalize-package-data@2.4.1:
@@ -2511,7 +2511,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 20.3.3
+      '@types/node': 20.4.1
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: false
