@@ -10,7 +10,7 @@ dependencies:
     version: 3.0.0(webpack@5.88.0)
   '@mdx-js/react':
     specifier: 3.0.0
-    version: 3.0.0(@types/react@18.2.52)(react@18.2.0)
+    version: 3.0.0(@types/react@18.2.55)(react@18.2.0)
   '@next/mdx':
     specifier: 14.0.4
     version: 14.0.4(@mdx-js/loader@3.0.0)(@mdx-js/react@3.0.0)
@@ -18,8 +18,8 @@ dependencies:
     specifier: 20.11.14
     version: 20.11.14
   '@types/react':
-    specifier: 18.2.52
-    version: 18.2.52
+    specifier: 18.2.55
+    version: 18.2.55
   '@types/react-dom':
     specifier: 18.2.18
     version: 18.2.18
@@ -294,14 +294,14 @@ packages:
       - supports-color
     dev: false
 
-  /@mdx-js/react@3.0.0(@types/react@18.2.52)(react@18.2.0):
+  /@mdx-js/react@3.0.0(@types/react@18.2.55)(react@18.2.0):
     resolution: {integrity: sha512-nDctevR9KyYFyV+m+/+S4cpzCWHqj+iHDHq3QrsWezcC+B17uZdIWgCguESUkwFhM3n/56KxWVE3V6EokrmONQ==}
     peerDependencies:
       '@types/react': '>=16'
       react: '>=16'
     dependencies:
       '@types/mdx': 2.0.5
-      '@types/react': 18.2.52
+      '@types/react': 18.2.55
       react: 18.2.0
     dev: false
 
@@ -327,7 +327,7 @@ packages:
         optional: true
     dependencies:
       '@mdx-js/loader': 3.0.0(webpack@5.88.0)
-      '@mdx-js/react': 3.0.0(@types/react@18.2.52)(react@18.2.0)
+      '@mdx-js/react': 3.0.0(@types/react@18.2.55)(react@18.2.0)
       source-map: 0.7.4
     dev: false
 
@@ -539,11 +539,11 @@ packages:
   /@types/react-dom@18.2.18:
     resolution: {integrity: sha512-TJxDm6OfAX2KJWJdMEVTwWke5Sc/E/RlnPGvGfS0W7+6ocy2xhDVQVh/KvC2Uf7kACs+gDytdusDSdWfWkaNzw==}
     dependencies:
-      '@types/react': 18.2.52
+      '@types/react': 18.2.55
     dev: false
 
-  /@types/react@18.2.52:
-    resolution: {integrity: sha512-E/YjWh3tH+qsLKaUzgpZb5AY0ChVa+ZJzF7ogehVILrFpdQk6nC/WXOv0bfFEABbXbgNxLBGU7IIZByPKb6eBw==}
+  /@types/react@18.2.55:
+    resolution: {integrity: sha512-Y2Tz5P4yz23brwm2d7jNon39qoAtMMmalOQv6+fEFt1mT+FcM3D841wDpoUvFXhaYenuROCy3FZYqdTjM7qVyA==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
