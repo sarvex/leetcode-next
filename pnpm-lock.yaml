@@ -10,7 +10,7 @@ dependencies:
     version: 3.0.1(webpack@5.88.0)
   '@mdx-js/react':
     specifier: 3.0.1
-    version: 3.0.1(@types/react@18.3.3)(react@18.3.1)
+    version: 3.0.1(@types/react@18.3.11)(react@18.3.1)
   '@next/mdx':
     specifier: 14.2.5
     version: 14.2.5(@mdx-js/loader@3.0.1)(@mdx-js/react@3.0.1)
@@ -18,8 +18,8 @@ dependencies:
     specifier: 20.16.1
     version: 20.16.1
   '@types/react':
-    specifier: 18.3.3
-    version: 18.3.3
+    specifier: 18.3.11
+    version: 18.3.11
   '@types/react-dom':
     specifier: 18.3.0
     version: 18.3.0
@@ -304,14 +304,14 @@ packages:
       - supports-color
     dev: false
 
-  /@mdx-js/react@3.0.1(@types/react@18.3.3)(react@18.3.1):
+  /@mdx-js/react@3.0.1(@types/react@18.3.11)(react@18.3.1):
     resolution: {integrity: sha512-9ZrPIU4MGf6et1m1ov3zKf+q9+deetI51zprKB1D/z3NOb+rUxxtEl3mCjW5wTGh6VhRdwPueh1oRzi6ezkA8A==}
     peerDependencies:
       '@types/react': '>=16'
       react: '>=16'
     dependencies:
       '@types/mdx': 2.0.5
-      '@types/react': 18.3.3
+      '@types/react': 18.3.11
       react: 18.3.1
     dev: false
 
@@ -337,7 +337,7 @@ packages:
         optional: true
     dependencies:
       '@mdx-js/loader': 3.0.1(webpack@5.88.0)
-      '@mdx-js/react': 3.0.1(@types/react@18.3.3)(react@18.3.1)
+      '@mdx-js/react': 3.0.1(@types/react@18.3.11)(react@18.3.1)
       source-map: 0.7.4
     dev: false
 
@@ -554,11 +554,11 @@ packages:
   /@types/react-dom@18.3.0:
     resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
     dependencies:
-      '@types/react': 18.3.3
+      '@types/react': 18.3.11
     dev: false
 
-  /@types/react@18.3.3:
-    resolution: {integrity: sha512-hti/R0pS0q1/xx+TsI73XIqk26eBsISZ2R0wUijXIngRK9R/e7Xw/cXVxQK7R5JjW+SV4zGcn5hXjudkN/pLIw==}
+  /@types/react@18.3.11:
+    resolution: {integrity: sha512-r6QZ069rFTjrEYgFdOck1gK7FLVsgJE7tTz0pQBczlBNUhBNk0MQH4UbnFSwjpQLMkLzgqvBBa+qGpLje16eTQ==}
     dependencies:
       '@types/prop-types': 15.7.5
       csstype: 3.1.2
