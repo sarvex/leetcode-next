@@ -10,7 +10,7 @@ dependencies:
     version: 3.0.1(webpack@5.88.0)
   '@mdx-js/react':
     specifier: 3.0.1
-    version: 3.0.1(@types/react@18.3.3)(react@18.3.1)
+    version: 3.0.1(@types/react@18.3.18)(react@18.3.1)
   '@next/mdx':
     specifier: 14.2.24
     version: 14.2.24(@mdx-js/loader@3.0.1)(@mdx-js/react@3.0.1)
@@ -18,11 +18,11 @@ dependencies:
     specifier: 20.17.24
     version: 20.17.24
   '@types/react':
-    specifier: 18.3.3
-    version: 18.3.3
+    specifier: 18.3.18
+    version: 18.3.18
   '@types/react-dom':
-    specifier: 18.3.0
-    version: 18.3.0
+    specifier: 18.3.5
+    version: 18.3.5(@types/react@18.3.18)
   next:
     specifier: 14.2.3
     version: 14.2.3(react-dom@18.3.1)(react@18.3.1)
@@ -341,14 +341,14 @@ packages:
       - supports-color
     dev: false
 
-  /@mdx-js/react@3.0.1(@types/react@18.3.3)(react@18.3.1):
+  /@mdx-js/react@3.0.1(@types/react@18.3.18)(react@18.3.1):
     resolution: {integrity: sha512-9ZrPIU4MGf6et1m1ov3zKf+q9+deetI51zprKB1D/z3NOb+rUxxtEl3mCjW5wTGh6VhRdwPueh1oRzi6ezkA8A==}
     peerDependencies:
       '@types/react': '>=16'
       react: '>=16'
     dependencies:
       '@types/mdx': 2.0.5
-      '@types/react': 18.3.3
+      '@types/react': 18.3.18
       react: 18.3.1
     dev: false
 
@@ -374,7 +374,7 @@ packages:
         optional: true
     dependencies:
       '@mdx-js/loader': 3.0.1(webpack@5.88.0)
-      '@mdx-js/react': 3.0.1(@types/react@18.3.3)(react@18.3.1)
+      '@mdx-js/react': 3.0.1(@types/react@18.3.18)(react@18.3.1)
       source-map: 0.7.4
     dev: false
 
@@ -594,14 +594,16 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: false
 
-  /@types/react-dom@18.3.0:
-    resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
+  /@types/react-dom@18.3.5(@types/react@18.3.18):
+    resolution: {integrity: sha512-P4t6saawp+b/dFrUr2cvkVsfvPguwsxtH6dNIYRllMsefqFzkZk5UIjzyDOv5g1dXIPdG4Sp1yCR4Z6RCUsG/Q==}
+    peerDependencies:
+      '@types/react': ^18.0.0
     dependencies:
-      '@types/react': 18.3.3
+      '@types/react': 18.3.18
     dev: false
 
-  /@types/react@18.3.3:
-    resolution: {integrity: sha512-hti/R0pS0q1/xx+TsI73XIqk26eBsISZ2R0wUijXIngRK9R/e7Xw/cXVxQK7R5JjW+SV4zGcn5hXjudkN/pLIw==}
+  /@types/react@18.3.18:
+    resolution: {integrity: sha512-t4yC+vtgnkYjNSKlFx1jkAhH8LgTo2N/7Qvi83kdEaUtMDiwpbLAktKDaAMlRcJ5eSxZkH74eEGt1ky31d7kfQ==}
     dependencies:
       '@types/prop-types': 15.7.5
       csstype: 3.1.2
