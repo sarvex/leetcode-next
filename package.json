@@ -10,8 +10,8 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@mdx-js/loader": "3.0.1",
-    "@mdx-js/react": "3.0.1",
+    "@mdx-js/loader": "3.1.0",
+    "@mdx-js/react": "3.1.0",
     "@next/mdx": "14.2.24",
     "@types/node": "22.13.10",
     "@types/react": "19.0.10",
