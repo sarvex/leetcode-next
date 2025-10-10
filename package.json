@@ -14,11 +14,11 @@
     "@mdx-js/react": "3.1.0",
     "@next/mdx": "15.3.5",
     "@types/node": "22.18.9",
-    "@types/react": "19.0.12",
-    "@types/react-dom": "19.0.4",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.1",
     "next": "15.3.5",
-    "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
   },
   "devDependencies": {
     "autoprefixer": "10.4.21",
